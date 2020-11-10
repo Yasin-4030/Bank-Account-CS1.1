@@ -38,7 +38,7 @@ class BankAccount():
         print('{} with account# {} has ${} in account.'.format(self.full_name, self.account_number, self.balance))
         
 
-account = BankAccount("Mohammad", 20172648, 772017264, 2600)
+account = BankAccount("Joi Anderson", 20172648, 772017264, 2600)
 account.deposit(900)
 # print(account.get_balance())
 account.withdraw(220)
